@@ -1,0 +1,24 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CLI.js",
+  "dependencies": {
+    "inquirer": "^4.0.1",
+    "random-words": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zz0115/hangman-cmd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zz0115/hangman-cmd/issues"
+  },
+  "homepage": "https://github.com/zz0115/hangman-cmd#readme"
+}

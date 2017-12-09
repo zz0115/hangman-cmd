@@ -48,7 +48,6 @@ function game() {
             if(response.userGuess.length!=1 || !(response.userGuess.charCodeAt(0)>=97 && response.userGuess.charCodeAt(0)<=122)){
                 console.log("Invalid input, please type in a letter.");
                 game();
-                //cannot print out the hiddenword again, need to be solved
             }
             // console.log("guessLeft " + guessLeft);
             else{
@@ -75,7 +74,7 @@ function game() {
                         console.log("INCORRECT!!!");
                     }
     
-                    // console.log(hiddenWord);
+                    console.log(hiddenWord);
                     guessLeft--;
                     console.log("Guesses remaining: " + guessLeft);
                     guess.push(response.userGuess);
